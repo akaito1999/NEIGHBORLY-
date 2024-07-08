@@ -3,7 +3,7 @@ import logging
 import azure.functions as func
 
 
-def main(event: func.EventGridEvent):
+def main(event: func.EventHubEvent):
 
 # Can't be use any more
 	# logging.info('Function triggered to process a message: ', event.get_body())
